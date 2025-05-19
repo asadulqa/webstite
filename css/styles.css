@@ -11,8 +11,8 @@
 }
 
 .profile-pic {
-  width: 250px;
-  height: 250px;
+  width: 160px;
+  height: 160px;
   object-fit: cover;
   border-radius: 50%;
   border: 2px solid #fff;
@@ -215,4 +215,28 @@ header {
 
 .education{
     margin-top: 10px;
+}
+
+
+
+.contact-info {
+  margin-top: 40px;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  background: rgba(255, 255, 255, 0.05); /* Optional: subtle highlight */
+  padding: 20px;
+  border-radius: 10px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-item {
+  margin: 10px 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
 }

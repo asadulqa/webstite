@@ -98,3 +98,18 @@
     });
 
 })(jQuery);
+
+
+<script>
+  window.addEventListener('load', function () {
+    console.log('Screen width:', window.innerWidth);
+    console.log('Screen height:', window.innerHeight);
+    console.log('Browser:', navigator.userAgent);
+
+    if (window.innerWidth < 500) {
+      alert('You are using a small screen. Layout may be simplified.');
+    }
+  });
+</script>
+
+

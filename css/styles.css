@@ -240,3 +240,22 @@ img {
   max-width: 100%;
   height: auto;
 }
+/* Base styles for desktop */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .nav, .main-content {
+    width: 100%;
+  }
+}
+
